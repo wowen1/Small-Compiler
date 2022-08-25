@@ -1,0 +1,11 @@
+a,b,c;
+{
+	a = 0;
+	SWITCH a {
+		CASE 0 : {
+			b = 5;
+			output b;
+		}
+	}
+}
+1 2 3 4

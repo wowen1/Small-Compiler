@@ -1,0 +1,15 @@
+a,b;
+{
+	a = 1;
+	b = 2;
+	IF a <> b
+	{
+		output a;
+		output b;
+	}
+	a = a + 1;
+	b = b + 1;
+	output a;
+	output b;
+}
+1 2

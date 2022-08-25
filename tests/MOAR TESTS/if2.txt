@@ -1,0 +1,17 @@
+a,b,c,d;
+{
+	a = 1  ;
+	b = 2 ; 
+	IF  a < b
+	{
+		output b;
+		output a;
+		a = a + b; 
+		output a;
+		b = a + b;
+		output b;
+	}
+	output a;
+	output b;
+}
+1 2 3

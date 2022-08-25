@@ -1,0 +1,36 @@
+a, b, c;
+{
+    input a;
+    b = 4;
+
+    FOR(c = 4; c > 0; c = c - 1;)
+    {
+        SWITCH a
+        {
+            CASE 69:
+            {
+                output a;
+                input a;
+            }
+            CASE 1337:
+            {
+                output a;
+                a = 694201337;
+            }
+            CASE 420:
+            {
+                output a;
+                input a;
+            }
+            DEFAULT:
+            {
+                b = 9001;
+            }
+        }
+    }
+
+    output a;
+    output b;
+
+}
+69 420 1337

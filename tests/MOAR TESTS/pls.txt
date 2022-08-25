@@ -1,0 +1,22 @@
+a, b, c;
+{
+	a = 12;
+	b = 4000;
+	c = 200;
+	SWITCH a {
+		CASE 12: {
+			SWITCH b {
+				CASE 80: {
+					output c;
+				}
+				DEFAULT: {
+					output b;
+				}
+			}
+		}
+		CASE 11: {
+			output b;
+		}
+	}
+
+} 1 2 3

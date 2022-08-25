@@ -1,0 +1,9 @@
+a, b;
+{
+  	a = 42 ;
+    b = a + 1;
+	input a;
+	output a;
+	output b;
+}
+1 2 3

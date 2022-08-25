@@ -1,0 +1,47 @@
+a, b, c, d, e, i, j;
+{
+  input a;
+  input b;
+  c = 3;
+  d = 0;
+  e = 0;
+  i = 0;
+  j = 0;
+  FOR (i = 0; i < 2000; i = i + 1;){
+    SWITCH i {
+      CASE 1: {
+        output e;
+        i = i + 100;
+        output i;
+        i = i - 100;
+      }
+
+      CASE 2: {
+        output i;
+      }
+      CASE 69: {
+        SWITCH c {
+          CASE 3: {
+            c = c + 10000;
+            output c;
+            c = c - 10000;
+          }
+DEFAULT: {
+           output j;
+         }
+        }
+      }
+
+      CASE 512: {
+        output i;
+      }
+
+DEFAULT: {
+           i = i + 1000;
+           output i;
+           i = i - 1000;
+         }
+    }
+  }
+}
+420  69  512  8008135

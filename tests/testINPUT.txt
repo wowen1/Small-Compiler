@@ -1,0 +1,15 @@
+
+a , b , c ;
+{
+input a;
+input b;
+input a;
+input c;
+output c;
+FOR ( a = 0; a < 5 ; a = a + 1;)
+{
+	output a;
+}
+
+}
+11 9 6 8 4 5

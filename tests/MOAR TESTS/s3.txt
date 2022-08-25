@@ -1,0 +1,22 @@
+a,b,c;
+{
+	a = 1;
+	output a;
+	SWITCH a {
+		CASE 0 : {
+			b = 5;
+			output b;
+		}
+		CASE 1 : {
+			b = 10;
+			output b;
+		}
+		DEFAULT : {
+			b = a + 100;
+			output b;
+		}
+	}
+	c = a + b;
+	output c;
+}
+1 2 3 4
